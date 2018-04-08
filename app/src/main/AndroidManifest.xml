@@ -47,14 +47,16 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".activity.kotActivity"/>
+        <activity android:name=".activity.kotActivity" />
         <activity android:name=".activity.WaveActivity" />
         <activity android:name=".activity.VideoPlayerActivity" />
         <activity android:name=".activity.SelfDefinedActivity" />
         <activity android:name=".activity.FlowLayoutActivity" />
         <activity android:name=".activity.InputEmojiActivity" />
-        <activity android:name=".activity.BatteryActivity"
-            android:theme="@style/AppTheme"/>
+        <activity
+            android:name=".activity.BatteryActivity"
+            android:theme="@style/AppTheme" />
+        <activity android:name=".activity.Battery2Activity"></activity>
     </application>
 
 </manifest>

@@ -21,8 +21,8 @@ class BatteryActivity : AppCompatActivity() {
             super.handleMessage(msg)
             when (msg?.what) {
                 0 -> {
-                    index += power+index
-                    horizontalBattery!!.power = index
+                    power += 5
+                    horizontalBattery!!.power = power
                     if (power == 100) {
                         power = 0
                     }
